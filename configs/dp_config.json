@@ -1,0 +1,14 @@
+{
+  "fp16": {
+    "enabled": true
+  },
+  "zero_optimization": {
+    "stage": 2,
+    "offload_optimizer": {
+      "device": "none"
+    },
+    "contiguous_gradients": true
+  },
+  "gradient_clipping": 1.0,
+  "train_micro_batch_size_per_gpu": 64
+}

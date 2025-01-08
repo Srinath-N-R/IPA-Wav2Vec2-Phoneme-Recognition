@@ -59,25 +59,18 @@ pip install -e .
 
 Update the `configs/config.yaml` file to specify dataset paths, model parameters, and training hyperparameters.
 
-### Preprocessing
-
-Run preprocessing to prepare the dataset and generate phoneme vocabularies:
-```bash
-python preprocess.py
-```
-
 ### Training
 
 To start training the model:
 ```bash
-python run_training.py
+python scripts/run_training.py
 ```
 
 ### Evaluation
 
 Evaluate the trained model using:
 ```bash
-python eval.py
+python scripts/eval.py
 ```
 
 ---

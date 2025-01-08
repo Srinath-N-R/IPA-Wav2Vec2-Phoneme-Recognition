@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains an end-to-end pipeline for training and evaluating a speech recognition model using [Wav2Vec2]([https://huggingface.co/docs/transformers/en/model_doc/wav2vec2]). It leverages various tools, including the Hugging Face Transformers library, to preprocess data, build vocabulary, and train a model capable of recognizing phonemes from audio input.
+This repository contains an end-to-end pipeline for training and evaluating a speech recognition model using [Wav2Vec2](https://huggingface.co/docs/transformers/en/model_doc/wav2vec2). It leverages various tools, including the Hugging Face Transformers library, to preprocess data, build vocabulary, and train a model capable of recognizing phonemes from audio input.
 
 The pipeline is modular, enabling customization for different datasets and configurations. It includes preprocessing, phoneme vocabulary generation, training, evaluation, and inference.
 
